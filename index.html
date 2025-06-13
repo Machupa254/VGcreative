@@ -1,0 +1,284 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VG Creative</title>  
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      background-color: #121212;
+      color: #ffffff;
+    }
+    header, footer {
+      background-color: #1e1e1e;
+    }
+    nav a {
+      color: #ffffff;
+      margin-right: 1rem;
+      text-decoration: none;
+    }
+    .cta-button {
+      background-color: #bb86fc;
+      color: #121212;
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 4px;
+      text-decoration: none;
+    }
+    .video-card {
+      background-color: #1e1e1e;
+      border: 1px solid #333;
+      padding: 1rem;
+      margin-bottom: 1rem;
+    }
+    input, textarea, button {
+      background-color: #333;
+      color: #ffffff;
+      border: 1px solid #555;
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      width: 100%;
+    }
+    .video-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1rem;
+    }
+    iframe {
+      width: 100%;
+      height: 200px;
+    }
+    .slider {
+      position: relative;
+      overflow: hidden;
+      max-width: 100%;
+      margin: 2rem 0;
+    }
+    .slides {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+    }
+    .slide {
+      min-width: 100%;
+      height: auto;
+    }
+    .prev, .next {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: rgba(0,0,0,0.5);
+      color: #fff;
+      border: none;
+      font-size: 2rem;
+      padding: 0 1rem;
+      cursor: pointer;
+    }
+    .prev {
+      left: 0;
+    }
+    .next {
+      right: 0;
+    }
+  </style>
+</head>
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<body>
+  <!-- Header -->
+  <header>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#rates">Rates</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <h1>VG Creative</h1>
+    <p>From Vision to Visuals</p>
+    <a href="#portfolio" class="cta-button">View My Work</a>
+  </section>
+
+   <!-- Portfolio Section -->
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="video-grid">
+      <div class="video-card">
+        <iframe src="https://www.youtube.com/embed/XSxpeSG0XCA" frameborder="0" allowfullscreen></iframe>
+        <h3>METRO STUNNA-MONEY ON MY HEAD FT KAIZA6(OFFICIAL VIDEO)</h3>
+      </div>
+      <div class="video-card">
+        <iframe src="https://www.youtube.com/embed/Wcx6DTnctQc" frameborder="0" allowfullscreen></iframe>
+        <h3>METRO STUNNA-GONGA(VISUALIZER)</h3>
+      </div>
+      <div class="video-card">
+        <iframe src="https://www.youtube.com/embed/WPHpy1cd0JA" frameborder="0" allowfullscreen></iframe>
+        <h3>METRO STUNNA-CHOPSTICS(OFFICIAL VIDEO)
+        </h3>
+      </div>
+      <div class="video-card">
+        <iframe src="https://www.youtube.com/embed/zp9VH6kBjts" frameborder="0" allowfullscreen></iframe>
+        <h3>Get io doh (Music video)
+        </h3>
+      </div>
+      <div class="video-card">
+        <iframe src="https://www.youtube.com/embed/Y16KDSWQt9c" frameborder="0" allowfullscreen></iframe>
+        <h3>WAYAHUDI FT SIREN ON THE BEAT ATIS ALERT OFFICIAL VIDEO</h3>
+      </div>
+      <div class="video-card">
+        <iframe src="https://www.youtube.com/embed/6G1R4hg5uHA" frameborder="0" allowfullscreen></iframe>
+        <h3>MR ruud - Vitu Nasty (Official video)</h3>
+      </div>
+      <div class="video-card">
+        <iframe src="https://www.youtube.com/embed/sIKG-cT0tBY" frameborder="0" allowfullscreen></iframe>
+        <h3>Wizzoh33 - "Sijai Tense" (OFFICIAL VISUALIZER)
+        </h3>
+      </div>
+      <div class="video-card">
+        <iframe src="https://www.youtube.com/embed/eo1xX_-asCk" frameborder="0" allowfullscreen></iframe>
+        <h3>Wizzoh33 - Madem Wa Nairobi Ft Twins Stars Wayahudi (Official Video)
+        </h3>
+      </div>
+      <div class="video-card">
+        <iframe src="https://www.youtube.com/embed/WsUz9v3B04Q" frameborder="0" allowfullscreen></iframe>
+        <h3>Siko KINENE NIKO KINENGE.Mr Officer..@WAYAHUDI</h3>
+      </div>
+      <div class="video-card">
+        <iframe src="https://www.youtube.com/embed/YvK7ntdXgzo" frameborder="0" allowfullscreen></iframe>
+        <h3>Amezaliwa Mwana by Hopestar
+        </h3>
+    
+    
+    
+
+  </section>
+
+  <!-- Services Rate Card Section -->
+  <section id="rates" style="padding: 2rem; background-color: #1e1e1e; color: #ffffff;">
+    <h2 style="text-align: center; margin-bottom: 2rem;">🎬 Music Video Services Rate Card</h2>
+    <p style="text-align: center; margin-bottom: 1rem;">Email: <a href="mailto:vgcreative.ke@gmail.com" style="color: #bb86fc;">vgcreative.ke@gmail.com</a></p>
+    <p style="text-align: center; margin-bottom: 2rem;">Contact: 0727519292 / 0706352214</p>
+
+    <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: center;">
+
+      <div style="background-color: #222; padding: 1.5rem; border-radius: 8px; width: 300px; border: 1px solid #333;">
+        <h3 style="color: #bb86fc;">ONE TAKE</h3>
+        <p><strong>KSH 10,000</strong></p>
+        <ul>
+          <li>1 Camera</li>
+          <li>1 Reflector</li>
+          <li>Standard Edit</li>
+        </ul>
+      </div>
+
+      <div style="background-color: #222; padding: 1.5rem; border-radius: 8px; width: 300px; border: 1px solid #333;">
+        <h3 style="color: #bb86fc;">DIRECTOR’S CUT</h3>
+        <p><strong>KSH 20,000</strong></p>
+        <ul>
+          <li>1 Camera</li>
+          <li>3 Lights</li>
+          <li>1 Reflector</li>
+          <li>Advanced Edit</li>
+        </ul>
+      </div>
+
+      <div style="background-color: #222; padding: 1.5rem; border-radius: 8px; width: 300px; border: 1px solid #333;">
+        <h3 style="color: #bb86fc;">VISUAL MASTERPIECE</h3>
+        <p><strong>KSH 50,000</strong></p>
+        <ul>
+          <li>3 Cameras</li>
+          <li>4 Lights</li>
+          <li>3 Reflectors</li>
+          <li>LED Lights</li>
+          <li>Smoke Machine</li>
+          <li>Multi-angle Shoot</li>
+          <li>Pro Edit</li>
+        </ul>
+      </div>
+
+    </div>
+    <section id="rate-card" style="padding:2rem; background:#181818; color:white;">
+  <h2>Rate Card</h2>
+  <p>Select a service to send an order directly to our WhatsApp.</p>
+
+  <table style="width:100%; margin:1rem 0; border-collapse:collapse; color:white;">
+    <thead>
+      <tr style="background:#333;">
+        <th style="padding:0.75rem; text-align:left;">Service</th>
+        <th style="padding:0.75rem; text-align:left;">Price (KES)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding:0.75rem;">ONE TAKE </td>
+        <td style="padding:0.75rem;">10,000</td>
+      </tr>
+      <tr>
+        <td style="padding:0.75rem;">DIRECTOR’S CUT</td>
+        <td style="padding:0.75rem;">20,000</td>
+      </tr>
+      <tr>
+        <td style="padding:0.75rem;">VISUAL MASTERPIECE</td>
+        <td style="padding:0.75rem;">50,000</td>
+      </tr>
+      </tr>
+    </tbody>
+  </table>
+
+  <div style="margin-top:1.5rem;">
+    <section id="rate-card" style="padding:2rem; background:#181818; color:white;">
+      <h2>Book a Service</h2>
+      <p>Select your service and instantly send an order to WhatsApp.</p>
+      <div>
+    <select id="serviceSelect" style="margin:1rem 0; padding:0.5rem; width:100%;">
+      <option value="">-- Select a Service --</option>
+      <option value="ONE TAKE (KES 10,000)">ONE TAKE – KES 10,000</option>
+      <option value="DIRECTOR’S CUT (KES 20,000)">DIRECTOR’S CUT – KES 20,000</option>
+      <option value="VISUAL MASTERPIECE (KES 50,000)">VISUAL MASTERPIECE – KES 50,000</option>
+    </select><br>
+    
+
+    <button onclick="sendWhatsAppOrder()" style="padding:0.75rem 1.5rem; background:#389e38; border:none; color:#121212; cursor:pointer;">
+      Order via WhatsApp
+    </button>
+
+  </div>
+</section>
+</section>
+
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Welcome to VG Creative, where we transform ideas into breathtaking visuals. As a professional videography company, we specialize in weddings, commercials, documentaries, and more, bringing stories to life with creativity and precision. Our motto, "From Vision to Visuals," reflects our commitment to crafting high-quality, compelling content that captivates and inspires. Let’s work together to turn your vision into reality!</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <form id="contact-form" action="contact.php" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 VG Creative</p>
+    <div class="social-links">
+      <a href="#">Instagram</a>
+      <a href="#">YouTube</a>
+      <a href="#">LinkedIn</a>
+    </div>
+  </footer>
+  
+      
+
+  <script src="script.js"></script>
+
+</body>
